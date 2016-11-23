@@ -2333,6 +2333,8 @@
 		.image img {
 			border-radius: 4px;
 			display: block;
+			max-width: 387px;
+			min-height: 258px;
 		}
 
 		.image.left, .image.right {
@@ -3178,13 +3180,13 @@
 /* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+		padding: 8em 0 6em 0 ;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#main {
-				padding: 0em 0 4em 0 ;
+				padding: 6em 0 4em 0 ;
 			}
 
 		}
