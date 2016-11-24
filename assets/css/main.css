@@ -2333,8 +2333,6 @@
 		.image img {
 			border-radius: 4px;
 			display: block;
-			max-width: 387px;
-			min-height: 258px;
 		}
 
 		.image.left, .image.right {
@@ -2602,7 +2600,7 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
+			width: calc(50% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
 
