@@ -2753,6 +2753,21 @@
 				background-color: #8499e7;
 			}
 
+			.tiles article.sold > .image:before {
+				background-color: #FFF;
+			}
+
+			.tiles article.sold {
+				opacity: 0.5;
+			}
+
+			body:not(.is-touch) .tiles article.sold:hover > .image {
+				-moz-transform: scale(1);
+				-webkit-transform: scale(1);
+				-ms-transform: scale(1);
+				transform: scale(1);
+			}
+
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
